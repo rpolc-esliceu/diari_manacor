@@ -1,0 +1,821 @@
+﻿<!doctype html>
+<html class="no-js" lang="eS">
+
+<head>
+
+    <!-- TITULO -->
+    <title>Cuadernos de Fútbol | Academia del Fútbol Español</title>
+    <!-- /TITULO -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- METADATOS -->
+    
+			<meta name="description" content="Cuadernos de Fútbol | Academia del Fútbol Español">
+			<meta name="keywords" content="Cuadernos de Fútbol, revista, historia del fútbol español, Academia del Fútbol Español, artículos, estadísticas, investigación">
+			<meta name="author" content="CUADERNOS DEL FUTBOL">
+			<meta name="robots" content="index, follow">
+			<meta name="language" content="es">
+			<meta name="distribution" content="global">
+			<link rel="canonical" href="https://cuadernosdefutbol.com/">
+			
+			<meta property="og:type" content="website">
+			<meta property="og:title" content="Cuadernos de Fútbol | Academia del Fútbol Español">
+			<meta property="og:description" content="Cuadernos de Fútbol es la revista de referencia en historia del fútbol español, editada por la Academia del Fútbol Español. Descubre artículos, ">
+			<meta property="og:url" content="https://cuadernosdefutbol.com/">
+			<meta property="og:image" content="https://cuadernosdefutbol.com/logo/light.png">
+			<meta property="og:site_name" content="CUADERNOS DEL FUTBOL">
+			<meta property="og:locale" content="es_ES">
+			
+			
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:title" content="Cuadernos de Fútbol | Academia del Fútbol Español">
+			<meta name="twitter:description" content="Cuadernos de Fútbol es la revista de referencia en historia del fútbol español, editada por la Academia del Fútbol Español. Descubre artículos, ">
+			<meta name="twitter:image" content="https://cuadernosdefutbol.com/logo/light.png"> 
+			<meta name="twitter:site" content=""> 
+
+    <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "url": "https://cuadernosdefutbol.com/",
+    "logo": "https://cuadernosdefutbol.com/logo/light.png",
+    "description": "Cuadernos de Fútbol es la revista de referencia en historia del fútbol español, editada por la Academia del Fútbol Español. Descubre artículos, ",
+    "keywords": "Cuadernos de Fútbol, revista, historia del fútbol español, Academia del Fútbol Español, artículos, estadísticas, investigación",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": "ES"
+    },
+    "areaServed": [
+        "ES"
+    ],
+    "telephone": null,
+    "email": "cuadernosdefutbol@academiadelfutbol.es",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": null,
+        "contactType": "Atención al cliente",
+        "areaServed": "ES",
+        "availableLanguage": [
+            "Spanish"
+        ]
+    },
+    "sameAs": []
+}</script>    <!-- /DATOS ESTRUCTURADOS -->
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /FAVICON -->
+
+    <!-- TIPOGRAFIAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- /TIPOGRAFIAS -->
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="demos/beauty-salon/beauty-salon.css" />
+    <link rel="stylesheet" href="css/proyecto.css" />
+    <!-- /CSS -->
+
+    <style>
+        .navbar {
+            background-color: #000 !important;
+        }
+
+        .bg-transparent {
+            background-color: #000 !important;
+            background: #000 !important;
+        }
+
+        .blog-content {
+            min-height: 190px !important;
+        }
+    </style>
+
+</head>
+
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#2E3844" class="custom-cursor">
+
+    <!-- CURSOR PERSONALIZADO -->
+    <div class="cursor-page-inner">
+        <div class="circle-cursor circle-cursor-inner"></div>
+        <div class="circle-cursor circle-cursor-outer"></div>
+    </div>
+    <!-- /CURSOR PERSONALIZADO -->
+
+    <!-- MENU -->
+    
+
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X30LM21C1"></script>
+
+    <script>
+        if (jQuery.cookie('cihefe-google-analytics') != 2) {
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-4X30LM21C1');
+        } else
+            jQuery.removeCookie('_ga_4X30LM21C1', {
+                path: '/',
+                domain: '.' + window.location.hostname.replace('www.', '')
+            });
+    </script>
+    <!-- End Google Tag Manager -->
+
+<header class="header-with-topbar">
+
+    <!-- MENU SUPERIOR -->
+    <div class="header-top-bar top-bar-dark disable-fixed" style="top: 0px;">
+        <div class="container">
+            <div class="row g-0 h-50px align-items-center m-0">
+                <div class="col-md-7 text-center text-md-start">
+                    <a href="mailto:&#99;&#117;&#97;&#100;&#101;&#114;&#110;&#111;&#115;&#100;&#101;&#102;&#117;&#116;&#98;&#111;&#108;&#64;&#97;&#99;&#97;&#100;&#101;&#109;&#105;&#97;&#100;&#101;&#108;&#102;&#117;&#116;&#98;&#111;&#108;&#46;&#101;&#115;" class="fs-14 text-white"><i class="fa-solid fa-futbol"></i> &#99;&#117;&#97;&#100;&#101;&#114;&#110;&#111;&#115;&#100;&#101;&#102;&#117;&#116;&#98;&#111;&#108;&#64;&#97;&#99;&#97;&#100;&#101;&#109;&#105;&#97;&#100;&#101;&#108;&#102;&#117;&#116;&#98;&#111;&#108;&#46;&#101;&#115;</a>
+                </div>
+                <div class="col-5 text-end header-icon">
+                    <div class="header-social-icon icon">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MENU SUPERIOR -->
+
+    <!-- MENU PRINCIPAL -->
+    <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
+        <div class="container-fluid">
+            <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
+                <a class="navbar-brand" href="https://cuadernosdefutbol.com/">
+                    <img src="logo/light.png" data-at2x="logo/light.png" alt="Cuadernos de Futbol" class="default-logo">
+                    <img src="logo/dark.png" data-at2x="logo/dark.png" alt="Cuadernos de Futbol" class="alt-logo">
+                    <img src="logo/mobile.png" data-at2x="logo/mobile@2x.png" alt="" class="mobile-logo">
+                </a>
+            </div>
+            <div class="col-auto menu-order position-static">
+                <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                    <span class="navbar-toggler-line"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="https://cuadernosdefutbol.com/" class="nav-link">Número actual</a></li>
+                        <li class="nav-item"><a href="cuadernos-de-futbol" class="nav-link">Números anteriores</a></li>
+                        <li class="nav-item"><a href="autores-articulos-futbol" class="nav-link">Autores</a></li>
+                        <li class="nav-item"><a href="busqueda-avanzada" class="nav-link">Búsqueda</a></li>
+                        <li class="nav-item dropdown simple-dropdown">
+                            <a href="redaccion-articulos-futbol" class="nav-link">Acerca de</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a href="acerca/revista-cuadernos-de-futbol/14">Revista Cuadernos de Fútbol</a></li><li><a href="acerca/normas-de-redaccion/15">Normas de redacción</a></li><li><a href="acerca/consejo-de-redaccion/16">Consejo de redacción</a></li>                                <!--
+                                <li><a href="demo-finance-expertise-details.html">Opción 1</a></li>
+                                <li><a href="demo-finance-expertise-details.html">Opción 2</a></li>
+                                <li><a href="demo-finance-expertise-details.html">Opción 3</a></li>
+                                <li><a href="demo-finance-expertise-details.html">Opción 4</a></li>
+                                -->
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item"><a href="academia-futbol" class="nav-link">Descúbrenos</a></li> -->
+
+                                                <li class="nav-item"><a href="contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto col-xxl-3 col-lg-2 text-start d-none d-sm-flex pe-3">
+                <div class="header-icon">
+                    <!-- <div class="header-button"><a href="#" class="btn btn-very-small border-1 btn-transparent-white-light btn-round-edge" data-bs-toggle="modal" data-bs-target="#infoModal">Solicitar información</a></div> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /MENU PRINCIPAL -->
+</header>    <!-- /MENU -->
+
+    <main>
+
+        <!-- SLIDER -->
+                <!-- <section id="slider" class="pb-0 top-space-padding bg-dark-gray full-screen border-top position-relative md-h-700px sm-h-600px sm-pb-70px" data-parallax-background-ratio="0.3" style="background-image: url('ficheros/slider/cuadernos-de-futbol_1.jpg')">
+            <div class="position-absolute left-0px top-0px d-none d-lg-inline-block" data-anime='{ "el": "childs", "translateY": [100, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <img src="images/demo-beauty-salon-home-banner-bg.png" data-bottom-top="transform: translateY(-150px)" data-top-bottom="transform: translateY(150px)" alt="">
+            </div>
+            <div class="pe-8 pt-8 absolute-middle-right lg-pe-2 lg-pt-2 d-none d-lg-inline-block">
+                <img src="images/demo-beauty-salon-banner-img.png" class="animation-rotation" alt="">
+            </div>
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div id="sliderContenedor" class="col-md-8 position-relative" data-anime='{ "el": "childs", "translateY": [30, 1], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div class="alt-font fs-80 text-white ls-minus-3px lh-80 mb-15px lg-fs-120 xs-fs-90 xs-lh-80 lg-lh-100">Cuadernos de Fútbol</div>
+                        <div class="text-white fs-20 w-60 mb-35px xs-mb-25px w-100 text-uppercase fw-900">Primera revista de historia del fútbol español.</div>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#infoModal" class="btn btn-extra-large btn-base-color btn-hover-animation-switch btn-round-edge btn-box-shadow boton">
+                            <span>
+                                <span class="btn-text">Solicitar informaci&oacute;n</span>
+                                <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- /SLIDER -->
+
+        <!-- CONTENIDO -->
+
+        <!-- CARACTERISTICAS -->
+        <!-- <section id="inicio-caracteristicas" class="bg-base-color pt-40px pb-40px overflow-hidden">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center align-items-center" data-anime='{ "el": "childs", "translateX": [-15, 0], "translateY": [15, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+
+                                                <div class="col icon-with-text-style-08 md-mb-30px text-center text-sm-start" style="border-right:1px solid rgba(255,255,255,0.18);">
+                                <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle text-center">
+                                    <div class="feature-box-icon me-10px">
+                                        <i class="bi bi-book icon-very-medium text-white"></i>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="alt-font fw-500 text-white d-block lh-26">Investigación histórica del fútbol español</span>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-08 md-mb-30px text-center text-sm-start" style="border-right:1px solid rgba(255,255,255,0.18);">
+                                <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle text-center">
+                                    <div class="feature-box-icon me-10px">
+                                        <i class="bi bi-people icon-very-medium text-white"></i>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="alt-font fw-500 text-white d-block lh-26">Colaboraciones de expertos y aficionados</span>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-08 md-mb-30px text-center text-sm-start" style="border-right:1px solid rgba(255,255,255,0.18);">
+                                <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle text-center">
+                                    <div class="feature-box-icon me-10px">
+                                        <i class="bi bi-bar-chart icon-very-medium text-white"></i>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="alt-font fw-500 text-white d-block lh-26">Estadísticas y análisis exclusivos</span>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-08 md-mb-30px text-center text-sm-start" style="border-right:1px solid rgba(255,255,255,0.18);">
+                                <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle text-center">
+                                    <div class="feature-box-icon me-10px">
+                                        <i class="bi bi-globe icon-very-medium text-white"></i>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="alt-font fw-500 text-white d-block lh-26">Acceso libre y gratuito a todos los contenidos</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                </div>
+            </div>
+        </section> -->
+        <!-- /CARACTERISTICAS -->
+
+        <!-- INTRO -->
+        <!-- <section class="pb-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                                        <div class="col-xl-5 col-lg-6 col-md-9 md-mb-50px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div class="bg-base-color fw-600 lh-30 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Bienvenidos a Cuadernos de Fútbol</div>
+                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-20px sm-w-85 xs-w-100 mx-auto">La revista de referencia sobre la historia del fútbol español</h3>
+                        <div>
+                            <p>Cuadernos de Fútbol es una publicación digital editada por la Academia del Fútbol Español (CIHEFE), dedicada a la investigación, divulgación y análisis de la historia del fútbol en España.</p>
+                            <p>En nuestras páginas encontrarás artículos originales, estudios estadísticos, biografías, crónicas y documentos inéditos elaborados por expertos y aficionados apasionados por el fútbol y su pasado.</p>
+                            <p>Accede libremente a todos nuestros contenidos y descubre la evolución, los protagonistas y los grandes momentos del fútbol español. ¡Bienvenido a la comunidad de la historia del fútbol!</p>                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 offset-xl-1 position-relative">
+                        <div class="text-end w-80 md-w-75 ms-auto" data-animation-delay="500" data-shadow-animation="true" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
+                            <img src="ficheros/introduccion_inicio/la-revista-de-referencia-sobre-la-historia-del-futbol-espanol_B_1.jpg" alt="cuadernos de futbol" class="border-radius-5px">
+                        </div>
+                        <div class="w-60 md-w-50 xs-w-55 overflow-hidden position-absolute left-15px bottom-minus-50px" data-shadow-animation="true" data-animation-delay="500" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                            <img src="ficheros/introduccion_inicio/la-revista-de-referencia-sobre-la-historia-del-futbol-espanol_1.jpg" alt="cuadernos de futbol" class="border-radius-5px box-shadow-quadruple-large" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- /INTRO -->
+
+        <!-- ULTIMO CUADERNO -->
+        <section id="inicio-cuaderno" class="position-relative overlap-height pt-5 mt-5">
+            <div class="container overlap-gap-section">
+
+                <!-- CABECERA SECCION -->
+                                <div class="row justify-content-center align-items-end mb-5">
+                    <div class="col-xl-6 col-lg-7 md-mb-20px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <div class="bg-base-color fw-600 lh-30 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Último número publicado</div>
+                        <h3 class="fw-700 text-dark-gray ls-minus-1px mb-0 w-90 md-w-100">Cuadernos de Fútbol <br/>n.<sup>o</sup> <span class="text-base-color fw-900">190</span></h3>
+                        <hr />
+                        <h3 class="h4">A&ntilde;o: <span class="text-base-color fw-700"></span> - Mes: <span class="text-base-color fw-700"></span></h6>
+                    </div>
+                    <div class="col-lg-5 offset-xl-1 last-paragraph-no-margin" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <p><br></p>
+                    </div>
+                </div>
+                <!-- /CABECERA SECCION -->
+
+                <div class="row justify-content-center">
+
+                    <!-- IZQUIERDA -->
+                    <div class="col-12 blog-standard md-mb-50px sm-mb-40px pe-25px lg-pe-15px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div>
+                            <ul class="blog-side-image blog-wrapper post-sidebar grid grid-2col xxl-grid-2col xl-grid-2col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                <li class="grid-sizer"></li>
+
+                                <!-- ARTICULO -->
+                                                            </ul>
+                        </div>
+                    </div>
+                    <!-- /IZQUIERDA -->
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <a href="cuadernos-de-futbol" class="btn btn-extra-large btn-rounded with-rounded boton btn-box-shadow">NÚMEROS ANTERIORES<span class="bg-blue-licorice text-white"><i class="feather icon-feather-arrow-right"></i></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- /ULTIMO CUADERNO -->
+
+        <!-- AUTORES DESTACADOS -->
+                <!-- <section id="inicio-autores" class="bg-gradient-bottom-very-light-gray position-relative overflow-hidden mb-4 pt-0">
+            <div class="container">
+                <div class="row justify-content-center mb-3" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col-lg-8 text-center">
+                        <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px ps-35px pe-35px xs-ps-0 xs-pe-0 d-inline-block position-relative text-highlight shadow-none" data-shadow-animation="true" data-animation-delay="700">Autores recientes</h2>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-xl-5 row-cols-md-3 row-cols-sm-2 justify-content-center" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+
+                                                <div class="col icon-with-text-style-09 lg-mb-50px sm-mb-30px">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon feature-box-icon-rounded box-shadow-large w-170px h-170px rounded-circle bg-white mb-15px">
+                                        <a href="autor/fernando-mejia-galicia/263"><img src="imagenes/autor/autor.jpg" alt="Fernando Mejia Galicia" /></a>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="d-inline-block alt-font fw-600 text-dark-gray fs-17">Fernando Mejía Galicia</span>
+                                        <a href="autor/fernando-mejia-galicia/263" class="fs-14 lh-22 fw-500 ls-05px text-uppercase d-block text-base-color">1 Artículos</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-09 lg-mb-50px sm-mb-30px">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon feature-box-icon-rounded box-shadow-large w-170px h-170px rounded-circle bg-white mb-15px">
+                                        <a href="autor/jose-ignacio-corcuera/7"><img src="imagenes/autor/autor.jpg" alt="Jose Ignacio Corcuera" /></a>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="d-inline-block alt-font fw-600 text-dark-gray fs-17">José Ignacio Corcuera</span>
+                                        <a href="autor/jose-ignacio-corcuera/7" class="fs-14 lh-22 fw-500 ls-05px text-uppercase d-block text-base-color">177 Artículos</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-09 lg-mb-50px sm-mb-30px">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon feature-box-icon-rounded box-shadow-large w-170px h-170px rounded-circle bg-white mb-15px">
+                                        <a href="autor/jose-del-olmo/5"><img src="imagenes/autor/autor.jpg" alt="Jose del Olmo" /></a>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="d-inline-block alt-font fw-600 text-dark-gray fs-17">José del Olmo</span>
+                                        <a href="autor/jose-del-olmo/5" class="fs-14 lh-22 fw-500 ls-05px text-uppercase d-block text-base-color">184 Artículos</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-09 lg-mb-50px sm-mb-30px">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon feature-box-icon-rounded box-shadow-large w-170px h-170px rounded-circle bg-white mb-15px">
+                                        <a href="autor/fernando-cuesta-fernandez/29"><img src="imagenes/autor/autor.jpg" alt="Fernando Cuesta Fernandez" /></a>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="d-inline-block alt-font fw-600 text-dark-gray fs-17">Fernando Cuesta Fernández</span>
+                                        <a href="autor/fernando-cuesta-fernandez/29" class="fs-14 lh-22 fw-500 ls-05px text-uppercase d-block text-base-color">83 Artículos</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col icon-with-text-style-09 lg-mb-50px sm-mb-30px">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon feature-box-icon-rounded box-shadow-large w-170px h-170px rounded-circle bg-white mb-15px">
+                                        <a href="autor/jose-lopez-carreno/91"><img src="imagenes/autor/autor.jpg" alt="Jose Lopez Carreno" /></a>
+                                    </div>
+                                    <div class="feature-box-content">
+                                        <span class="d-inline-block alt-font fw-600 text-dark-gray fs-17">José López Carreño</span>
+                                        <a href="autor/jose-lopez-carreno/91" class="fs-14 lh-22 fw-500 ls-05px text-uppercase d-block text-base-color">54 Artículos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                </div>
+            </div>
+        </section> -->
+        <!-- /AUTORES DESTACADOS -->
+
+        <!-- CTA -->
+        <section id="inicio-cta1" class="bg-very-light-gray">
+            <div class="container overlap-section">
+                
+                <div class="row justify-content-center pt-45px pb-45px g-0 position-relative cover-background" style="background-image: url('ficheros/llamada_inicio/quieres-publicar-en-cuadernos-de-futbol_1.jpg')">
+
+                    <div id="inicio-cta1Overlay"></div>
+
+                    <div class="col-12 position-relative justify-content-center align-items-center text-center" style="z-index:2;">
+                        <div class="text-white fs-32 alt-font fw-600 d-inline-block align-middle mb-0 me-30px md-me-0 md-mb-30px">¿Quieres publicar en Cuadernos de Fútbol?</div>
+                        <a href="redaccion-articulos-futbol" class="btn btn-large btn-rounded btn-white inner-link fw-700 btn-box-shadow">Normas de redacción</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /CTA -->
+
+        <!-- POPULARES -->
+        <!-- <section class="p-5 xxl-p-2 xl-pt-30px xl-pb-30px bg-very-light-gray border-radius-6px position-relative overflow-hidden">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                                        <div class="col-12 col-xxl-3 text-center text-xxl-start xl-mt-30px xl-mb-30px sm-mt-20px" data-anime='{ "el": "childs", "translateX": [-15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                        <span class="ls-2px text-uppercase text-dark-gray fw-500 lh-22 mb-15px d-block">Artículos <span class='d-inline-block border-2 border-bottom border-color-transparent-base-color fw-800'>populares</span></span>
+                        <h3 class="fw-600 text-dark-gray alt-font ls-minus-1px mb-30px sm-mb-20px">Los más leídos de Cuadernos de Fútbol</h3>
+                        <a href="articulos" class="btn btn-extra-large btn-rounded with-rounded boton btn-box-shadow">Ver todos <i class="fa-sharp fa-solid fa-arrow-right"></i><span class="bg-very-light-gray"></span></a>
+                    </div>
+                    <div class="col-12 col-xxl-9">
+                        <ul class="blog-grid blog-wrapper grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large" data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 300, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <li class="grid-sizer"></li>
+
+                                                                <li class="grid-item">
+                                        <div class="card border-0 border-radius-6px box-shadow-medium box-shadow-extra-large-hover">
+                                            <div class="blog-image">
+                                                                                                <a href="articulo/indice-de-equipos-1928-2021-xviii-euskadi/404" class="d-block"><img src="ficheros/configuracion/configuracion-del-portal_B_1.jpg" alt="Indice de equipos 1928-2021.  (XVIII: Euskadi)" /></a>
+                                                                                                <div class="blog-categories">
+                                                    <a href="articulos" class="categories-btn bg-dark-gray-transparent text-white text-uppercase fw-600">active</a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-11">
+                                                <a href="articulo/indice-de-equipos-1928-2021-xviii-euskadi/404" class="card-title mb-15px fw-600 fs-18 lh-26 text-dark-gray d-inline-block">Índice de equipos 1928-2021.  (XVIII: Euskadi)</a>
+                                                <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-15 text-uppercase">
+                                                    <div class="me-auto">
+                                                        <span class="text-dark-gray blog-date d-inline-block fw-600 text-transform-none">Cuaderno <strong class="text-base-color">132</strong></span>
+                                                        <div class="text-dark-gray d-inline-block author-name text-transform-none">Por <a href="autor/carles-lozano/190" class="text-base-color text-decoration-line-bottom fw-600">Carles Lozano</a></div>
+                                                    </div>
+                                                    <div class="like-count fs-14">
+                                                        <a href="javascript:void(0);"><i class="fa-regular fa-eye text-base-color d-inline-block"></i><span class="text-dark-gray align-middle fw-700">1430905</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li class="grid-item">
+                                        <div class="card border-0 border-radius-6px box-shadow-medium box-shadow-extra-large-hover">
+                                            <div class="blog-image">
+                                                                                                <a href="articulo/la-fundacion-del-colegio-regional-de-arbitros-de-valencia/3" class="d-block"><img src="ficheros/noticias/la-fundacion-del-colegio-regional-de-arbitros-de-valencia_3.jpg" alt="La fundacion del Colegio Regional de Arbitros de Valencia" /></a>
+                                                                                                <div class="blog-categories">
+                                                    <a href="articulos" class="categories-btn bg-dark-gray-transparent text-white text-uppercase fw-600">Árbitros</a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-11">
+                                                <a href="articulo/la-fundacion-del-colegio-regional-de-arbitros-de-valencia/3" class="card-title mb-15px fw-600 fs-18 lh-26 text-dark-gray d-inline-block">La fundación del Colegio Regional de Árbitros de Valencia</a>
+                                                <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-15 text-uppercase">
+                                                    <div class="me-auto">
+                                                        <span class="text-dark-gray blog-date d-inline-block fw-600 text-transform-none">Cuaderno <strong class="text-base-color">184</strong></span>
+                                                        <div class="text-dark-gray d-inline-block author-name text-transform-none">Por <a href="autor/jose-del-olmo/5" class="text-base-color text-decoration-line-bottom fw-600">José del Olmo</a></div>
+                                                    </div>
+                                                    <div class="like-count fs-14">
+                                                        <a href="javascript:void(0);"><i class="fa-regular fa-eye text-base-color d-inline-block"></i><span class="text-dark-gray align-middle fw-700">58692</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li class="grid-item">
+                                        <div class="card border-0 border-radius-6px box-shadow-medium box-shadow-extra-large-hover">
+                                            <div class="blog-image">
+                                                                                                <a href="articulo/el-escandalo-de-los-falsos-oriundos-antecedentes/14" class="d-block"><img src="ficheros/configuracion/configuracion-del-portal_B_1.jpg" alt="El Escandalo de los falsos oriundos: Antecedentes" /></a>
+                                                                                                <div class="blog-categories">
+                                                    <a href="articulos" class="categories-btn bg-dark-gray-transparent text-white text-uppercase fw-600">Directivos</a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-11">
+                                                <a href="articulo/el-escandalo-de-los-falsos-oriundos-antecedentes/14" class="card-title mb-15px fw-600 fs-18 lh-26 text-dark-gray d-inline-block">El Escándalo de los falsos oriundos: Antecedentes</a>
+                                                <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-15 text-uppercase">
+                                                    <div class="me-auto">
+                                                        <span class="text-dark-gray blog-date d-inline-block fw-600 text-transform-none">Cuaderno <strong class="text-base-color">182</strong></span>
+                                                        <div class="text-dark-gray d-inline-block author-name text-transform-none">Por <a href="autor/jose-ignacio-corcuera/7" class="text-base-color text-decoration-line-bottom fw-600">José Ignacio Corcuera</a></div>
+                                                    </div>
+                                                    <div class="like-count fs-14">
+                                                        <a href="javascript:void(0);"><i class="fa-regular fa-eye text-base-color d-inline-block"></i><span class="text-dark-gray align-middle fw-700">38799</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- /POPULARES -->
+
+        <!-- /CONTENIDO -->
+    </main>
+
+
+    <!-- PIE -->
+    <!-- LLAMADA PIE -->
+<section id="pie_llamada">
+  <div class="container">
+    <div class="row"
+      data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+      <div class="col text-center">
+        <div
+          class="fs-26 sm-fs-22 sm-lh-30 fw-600 ls-minus-1px text-dark-gray d-inline-block align-middle me-20px md-m-10px md-mt-0">
+          <br>        </div>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#infoModal"
+          class="btn btn-extra-large btn-base-color btn-hover-animation-switch btn-round-edge btn-box-shadow boton">
+          <span>
+            <span class="btn-text">Solicitar informaci&oacute;n</span>
+            <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+            <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /LLAMADA PIE -->
+
+<footer class="p-0 fs-16 border-top border-color-extra-medium-gray">
+  <div class="container">
+    <div class="row justify-content-center pt-6 sm-pt-40px">
+
+      <!-- COLUMNA -->
+      <div
+        class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
+        <a href="index.php" class="footer-logo mb-15px d-inline-block w-75"><img src="logo/light.png"
+            class="h-auto mw-100" alt="Academia del Futbol Español"></a>
+        <p class="lh-30 w-90 xl-w-100 mx-lg-auto mx-xl-0"><br></p>
+        <div class="elements-social social-icon-style-02 mt-20px xs-mt-15px">
+          <ul class="medium-icon dark">
+            
+          </ul>
+        </div>
+      </div>
+      <!-- /COLUMNA -->
+
+      <!-- COLUMNA -->
+      <div class="col-12 col-xl-9 col-lg-7 xs-mb-30px order-sm-5 order-lg-4">
+        <span class="fs-17 fw-600 d-block text-dark-gray mb-15px text-white">DESCÚBRENOS</span>
+        <ul class="list-unstyled d-flex flex-column flex-md-row gap-3 gap-lg-4 mb-0">
+          <li><a href="https://academiadelfutbol.es">Academia del Fútbol Español</a></li>
+          <li><a href="https://academiadelfutbol.es/editorial/">Editorial CIHEFE</a></li>
+          <li><a href="https://datosfutbolcihefe.es">Datos de fútbol</a></li>
+          <li><a href="https://cuadernosdefutbol.com/">Cuadernos de Fútbol</a></li>
+        </ul>
+      </div>
+      <!-- /COLUMNA -->
+
+      <!-- COLUMNA -->
+      <div class="col-xl-6 col-lg-5 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
+        <!-- <span class="fs-17 fw-600 d-block text-dark-gray mb-5px text-white">BOLETÍN INFORMATIVO</span>
+        <p class="lh-30 w-95 sm-w-100 mb-15px">Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones.</p>
+        <div class="d-inline-block w-100 newsletter-style-02 position-relative">
+          <form method="post" id="contact_form3" name="contact_form3">
+            <div id="contactError3"></div>
+            <input class="border-color-extra-medium-gray bg1o border-radius-4px w-75 form-control input-small pe-50px required fs-5 text-white ph-fff" type="email" name="email" aria-label="Correo electrónico" placeholder="Introduce tu correo electrónico" />
+            <input type="hidden" name="redirect" value="">
+
+            <div class="position-relative terms-condition-box text-start d-inline-block mb-20px mt-3">
+              <label>
+                <input type="checkbox" name="condiciones" id="terms_condition" value="1" class="terms-condition check-box align-middle required">
+                <span class="box fs-14">He leído y acepto la <a href="politica-privacidad" target="_blank" class="text-decoration-line-bottom">política de privacidad</a> y los <a href="condiciones-uso" target="_blank" class="text-decoration-line-bottom">términos y condiciones</a>.</span>
+              </label>
+            </div>
+
+
+            <div class="tp-postbox-details-input mb-2">
+              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+              <div class="g-recaptcha" data-sitekey="6LdTLX4sAAAAAPEYEH_FWV4p2hSL0WihPTGBr4zH"></div>
+            </div>
+
+            <button class="btn btn-small btn-dark-gray w-100 btn-box-shadow submit boton position-relative" aria-label="enviar ahora">ENVIAR</button>
+
+
+
+
+
+            <div class="form-results border-radius-4px pt-5px pb-5px ps-15px pe-15px fs-14 lh-22 mt-10px w-100 text-center position-absolute d-none"></div>
+          </form>
+        </div> -->
+      </div>
+      <!-- /COLUMNA -->
+
+    </div>
+    <div class="row justify-content-center align-items-center pt-2">
+
+      <!-- SPARADOR -->
+      <div class="col-12">
+        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-light"></div>
+      </div>
+      <!-- /SEPARADOR -->
+
+      <!-- COPYRIGHT -->
+      <div
+        class="col-lg-4 pt-35px pb-35px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin">
+        <p>&copy; 2026 Academia del Fútbol Español</p>
+      </div>
+      <!-- /COPYRIGHT -->
+
+      <div class="row mb-3 mt-50">
+        <!-- SI EL FONDO ES OSCURO -->
+        <div class="col-12 text-uppercase text-white text-center mb-2">
+          <div class="text-white text-center fs-5">PROGRAMA KIT DIGITAL FINANCIADO POR LOS FONDOS NEXT
+            GENERATION<br />DEL MECANISMO DE RECUPERACI&Oacute;N Y RESILENCIA</div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+          <img src="kit_light/pie1.png" alt="" style="max-width: 70%;">
+        </div>
+        <div class="col-md-4 col-12 text-center">
+          <img src="kit_light/pie2.png" alt="" style="max-width: 70%;">
+        </div>
+        <div class="col-md-4 col-12 text-center">
+          <img src="kit_light/pie3.png" alt="" style="max-width: 70%;">
+        </div>
+      </div>
+
+      <!-- LEGAL -->
+      <div class="col-lg-8 pt-35px pb-35px md-pt-25px md-pb-5px order-1 order-lg-2 text-center text-lg-end">
+        <ul class="footer-navbar sm-lh-normal">
+          <li><a href="preferencias-privacidad" class="nav-link">Preferencias de privacidad</a></li>
+          <li><a href="politica-privacidad" target="_blank" class="nav-link">Política de privacidad</a></li>
+          <li><a href="politica-cookies" target="_blank" class="nav-link">Política de cookies</a></li>
+          <li><a href="condiciones-uso" target="_blank" class="nav-link">Términos y condiciones</a></li>
+        </ul>
+      </div>
+      <!-- /LEGAL -->
+
+    </div>
+  </div>
+
+  <div id="cookies_ventana" style="display:none;">
+
+    <div id="cookies_ventanaMensaje">
+      <p>Este sitio web almacena y/o accede a información en un dispositivo (como cookies) y procesa datos personales
+        (como identificadores únicos y otros datos del dispositivo) para anuncios y contenido personalizado, medición de
+        anuncios y contenido, conocimiento de la audiencia y desarrollo de productos. Con su consentimiento, podemos
+        usar datos precisos de geolocalización e identificación a través del escaneo del dispositivo.</p>
+    </div>
+
+    <div id="cookies_ventanaBotones">
+
+      <a href="javascript:void(0)" onclick="asignarCookie(0);">Aceptar solo obligatorias</a>
+
+      <a href="javascript:void(0)" onclick="asignarCookie(1);">Aceptar todas</a>
+
+      <a href="preferencias-privacidad">Preferencias de privacidad</a>
+
+    </div>
+  </div>
+
+  <script>
+    var ruta = '';
+
+    function asignarCookie(tipo) {
+      // jQuery.cookie('cihefe', '1');
+      jQuery.cookie('cihefe', '1', { expires: 365, path: '/' });
+      if (tipo == 1) {
+        // jQuery.cookie('cihefe-google-analytics', 1);
+        jQuery.cookie('cihefe-google-analytics', '1', { expires: 365, path: '/' });
+      }
+
+      jQuery("#cookies_ventana").hide();
+    }
+  </script>
+</footer>
+
+<!-- MODAL INFORMACION -->
+<div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <form method="post" id="contact_form2" name="contact_form2">
+        <input type="text" style="display:none;" name="formulario"
+          value="cuadernosdefutbol.com/">
+        <div id="contactError2"></div>
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="infoModalLabel">Solicitar información</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-2">
+            <label for="nombre" class="form-label">Nombre y apellidos *</label>
+            <input type="text" class="form-control form-control-sm" id="nombre" name="name">
+          </div>
+          <div class="mb-2">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control form-control-sm" id="telefono" name="telefono">
+          </div>
+          <div class="mb-2">
+            <label for="email" class="form-label">Email *</label>
+            <input type="email" class="form-control form-control-sm" id="email" name="email">
+          </div>
+          <div class="mb-2">
+            <label for="asunto" class="form-label">Asunto *</label>
+            <input type="text" class="form-control form-control-sm" id="asunto" name="asunto">
+          </div>
+          <div class="mb-2">
+            <label for="mensaje" class="form-label">Mensaje *</label>
+            <textarea class="form-control form-control-sm" id="mensaje" name="message" rows="2"></textarea>
+          </div>
+          <div class="mb-2 form-check">
+            <div class="position-relative terms-condition-box text-start d-inline-block mb-10px">
+              <label>
+                <input type="checkbox" name="condiciones" id="terms_condition" value="1"
+                  class="terms-condition check-box align-middle required">
+                <span class="box fs-14">He leído y acepto la <a href="politica-privacidad" target="_blank">política de
+                    privacidad</a> y los <a href="condiciones-uso" target="_blank">términos y condiciones de
+                    uso</a>.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="tp-postbox-details-input mb-20">
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <div class="g-recaptcha" data-sitekey="6LdTLX4sAAAAAPEYEH_FWV4p2hSL0WihPTGBr4zH"></div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn boton btn-lg">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- /MODAL INFORMACION -->    <!-- /PIE -->
+
+    <!-- SCROLL -->
+    <div class="scroll-progress d-none d-xxl-block">
+        <a href="#" class="scroll-top" aria-label="scroll">
+            <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+        </a>
+    </div>
+    <!-- /SCROLL -->
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+            if (navbar) {
+                navbar.classList.add('bg-dark');
+                navbar.style.setProperty('background', '#000', 'important');
+            }
+
+            const pieLlamada = document.querySelector('#pie_llamada');
+            if (pieLlamada) {
+                pieLlamada.style.setProperty('display', 'none', 'important');
+            }
+
+        });
+    </script>
+</body>
+
+</html>
