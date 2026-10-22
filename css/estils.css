@@ -1,0 +1,138 @@
+/* 1. La caixa, per a tot */
+* { box-sizing: border-box; }
+
+/* 2. Els colors, en un sol lloc */
+:root {
+  --tinta: #1d1c1a;
+  --paper: #fbf8f1;
+  --gris: #6f6a61;
+  --ratlla: #d8d3c9;
+  --vermell: #a4161a;
+}
+
+/* 3. El general */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.6;
+  color: var(--tinta);
+  background-color: var(--paper);
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* 4. Les zones */
+header {
+  text-align: center;
+  padding: 1.5rem 0 1rem;
+  border-bottom: 4px double var(--tinta);
+}
+
+header h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.data {
+  font-size: 0.8rem;
+  color: var(--gris);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0.5rem 0 0;
+}
+
+/* Menú */
+nav {
+  border-bottom: 1px solid var(--tinta);
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--tinta);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* 5. Les dues columnes */
+.amb-lateral {
+  display: flex;
+  gap: 2rem;
+}
+
+.amb-lateral article {
+  flex: 1;
+}
+
+aside {
+  width: 18rem;
+  border-left: 1px solid var(--ratlla);
+  padding-left: 1.5rem;
+}
+
+aside h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--vermell);
+  border-top: 3px solid var(--vermell);
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* 6. Fotos i object-fit */
+figure { margin: 0 0 1rem; }
+
+figure img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover; /* Retalla la imatge gran perquè no es deformi */
+}
+
+figcaption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--gris);
+  border-bottom: 1px solid var(--ratlla);
+  padding: 0.3rem 0;
+}
+
+article h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 1rem 0 0.75rem;
+}
+
+/* Miniatures del lateral */
+.miniatura {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover; /* Retalla les fotos petites en quadrats perfectes */
+  border-radius: 4px;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+/* Peu de pàgina */
+footer {
+  border-top: 4px double var(--tinta);
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--gris);
+}

@@ -3,15 +3,41 @@
 <head>
     <meta charset="utf-8">
     <title>Contacte · Diari de Manacor</title>
+    <!-- PAS 3: Enllaç a Google Fonts ABANS del teu full d'estils -->
+    <link rel="stylesheet" href="https://googleapis.com">
+    <!-- PAS 1: Enllaç correcte al CSS general de la pràctica -->
+    <link rel="stylesheet" href="css/estils.css">
 </head>
 <body>
-    <h1>Contacte</h1>
-    <ul>
-        <li><a href="index.html">Portada</a></li>
-        <li><a href="qui-som.html">Qui som</a></li>
-        <li><a href="contacte.html">Contacte</a></li>
-        <li><a href="noticies/esports.html">Esports</a></li>
-    </ul>
-    <p>Podeu contactar amb la redacció del diari a través del nostre correu electrònic o telèfon d'atenció al client.</p>
+
+    <!-- PAS 3: Capçalera oficial del diari amb la data de la pràctica -->
+    <header>
+        <h1>Diari de Manacor</h1>
+        <p class="data">Dijous, 22 d’octubre de 2026 · Manacor</p>
+    </header>
+
+    <!-- PAS 4: Menú de navegació horitzontal integrat amb el fitxer 'esport.html' -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Portada</a></li>
+            <li><a href="qui-som.html">Qui som</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+            <li><a href="esport.html">Esports</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAS 9: Contingut principal normal (sense la classe '.amb-lateral' de la portada) -->
+    <main>
+        <article>
+            <h2>Contacte con la redacció</h2>
+            <p>Podeu contactar amb la redacció del diari a través del nostre correu electrònic o telèfon d'atenció al client.</p>
+        </article>
+    </main>
+
+    <!-- PAS 8: Tancament elegant del diari amb la doble ratlla horitzontal -->
+    <footer>
+        <p>Diari de Manacor · Avís legal · 2n SMX · Es Liceu</p>
+    </footer>
+
 </body>
 </html>

@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html lang="ca">
-
 <head>
     <meta charset="utf-8">
-    <title>Diari de Manacor</title>
+    <title>Diari de Manacor · Portada</title>
+    <link rel="stylesheet" href="https://googleapis.com">
+    <link rel="stylesheet" href="css/estils.css">
 </head>
 <body>
-    <h1>Diari de Manacor</h1>
-    <ul>
-        <li><a href="index.html">Portada</a></li>
-        <li><a href="qui-som.html">Qui som</a></li>
-        <li><a href="contacte.html">Contacte</a></li>
-        <li><a href="noticies/esports.html">Esports</a></li>
-    </ul>
-    <h2>L’Ajuntament aprova el nou pressupost municipal</h2>
-    <img src="img/ayuntament.jpg" alt="El port de Manacor amb les barques amarrades">
-    <p>El ple d'ahir vespre va durar <strong>tres hores</strong> de debat intens entre els diferents grups polítics
-        abans de la votació final.</p>
-    <p>Les noves partides se destinaran principalment a millorar les zones de vianants i a fomentar el comerç de
-        proximitat.</p>
-</body>
 
+    <!-- PAS 3: Capçalera oficial del diari -->
+    <header>
+        <h1>Diari de Manacor</h1>
+        <p class="data">DIJOUS, 22 D’OCTUBRE DE 2026 · MANACOR</p>
+    </header>
+
+    <!-- PAS 4: Menú de navegació horitzontal en una línia -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Portada</a></li>
+            <li><a href="qui-som.html">Qui som</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+            <li><a href="esport.html">Esports</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAS 5: El contenidor principal amb les dues columnes de la portada -->
+    <main class="amb-lateral">
+        
+        <!-- Columna de l'esquerra: Notícia Principal -->
+        <article>
+            <h2>L’Ajuntament aprova el pressupost</h2>
+            
+            <!-- PAS 6: La foto dins d'un <figure> amb el seu peu -->
+            <figure>
+                <img src="img/ayuntament.jpg" alt="L'Ajuntament de Manacor">
+                <figcaption>El port de Manacor, aquest matí. Foto: el teu nom</figcaption>
+            </figure>
+
+            <p>El ple va durar <strong>tres hores</strong> i el pressupost es va aprovar amb els vots de l'equip de govern.</p>
+            <p>L'oposició hi va votar en contra i demana més inversió als barris.</p>
+        </article>
+
+        <!-- Columna de la dreta: El Temps i Fotos de la setmana -->
+        <aside>
+            <h2>El temps a Manacor</h2>
+            <p>Asolellat, 24 °C, Vent fluix de llevant.</p>
+            <br>
+            
+            <!-- PAS 7: Secció de fotos de la setmana en miniatura quadrada -->
+            <h2>Fotos de la setmana</h2>
+            <div class="fotos-contenidor">
+                <img class="miniatura" src="img/ayuntament.jpg" alt="Miniatura 1">
+                <img class="miniatura" src="img/equipo.jpg" alt="Miniatura 2">
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- PAS 8: El peu de pàgina de tancament -->
+    <footer>
+        <p>Diari de Manacor · Avís legal</p>
+    </footer>
+
+</body>
 </html>
