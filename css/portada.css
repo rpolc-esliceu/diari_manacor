@@ -1,15 +1,19 @@
+Salta al contingut Utilitza Correu de Es Liceu S. Coop. Edu amb lectors de pantalla 1 de 1.225 (sense assumpte) Safata d'entrada
+ Es Liceu MIQUEL SASTRE RUBÍ 20:15 (fa 0 minuts) per a mi
 
-/* ELS DOS TRUCS */
+/* Els dos trucs */
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-/* COLORS */
+/* Els colors, en un sol lloc */
 :root {
     --tinta: #1d1c1a;
     --paper: #fbf8f1;
@@ -32,15 +36,9 @@ img {
     width: 100%;
 }
 
-/* PAGINA */
-.pagina {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-/* CAPCALERA */
+/* La capçalera */
 .capcalera {
+    grid-area: cap;
     text-align: center;
     padding: 20px 0 12px;
     border-bottom: 4px double var(--tinta);
@@ -61,8 +59,9 @@ img {
     letter-spacing: 0.1em;
 }
 
-/* MENU */
+/* El menú: Flexbox, com a la 5.3 */
 .menu {
+    grid-area: menu;
     border-bottom: 1px solid var(--tinta);
 }
 
@@ -73,7 +72,7 @@ img {
     gap: 8px 24px;
     list-style: none;
     margin: 0;
-    padding: 0 0 12px;
+    padding: 12px 0;
 }
 
 .menu a {
@@ -86,7 +85,11 @@ img {
     letter-spacing: 0.1em;
 }
 
-/* NOTICIA PRINCIPAL */
+/* La notícia principal */
+.principal {
+    grid-area: principal;
+}
+
 .principal h2 {
     margin: 12px 0 8px;
     font-size: 3.2rem;
@@ -98,7 +101,14 @@ img {
     color: var(--gris);
 }
 
-/* NOTICIES */
+/* Les notícies petites (graella interna) */
+.noticies {
+    grid-area: noticies;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
 .noticia {
     border-top: 3px solid var(--tinta);
     padding-top: 10px;
@@ -119,8 +129,9 @@ img {
     font-size: 2.4rem;
 }
 
-/* LATERAL */
+/* La columna lateral */
 .lateral {
+    grid-area: lateral;
     padding: 0 16px 16px;
     background-color: var(--fons-lateral);
 }
@@ -149,42 +160,24 @@ img {
     margin-bottom: 6px;
 }
 
-/* PEU */
+/* El peu */
 .peu {
+    grid-area: peu;
     border-top: 4px double var(--tinta);
     text-align: center;
     font-size: 1.3rem;
     color: var(--gris);
+    padding: 12px 0;
 }
 
-/* GRID AREAS */
-.capcalera {
-    grid-area: cap;
-}
 
-.menu {
-    grid-area: menu;
-}
-
-.principal {
-    grid-area: principal;
-}
-
-.noticies {
-    grid-area: noticies;
-}
-
-.lateral {
-    grid-area: lateral;
-}
-
-.peu {
-    grid-area: peu;
-}
-
-/* MOBIL: 375px - UNA COLUMNA */
 .pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
     display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
     grid-template-areas:
         "cap"
         "menu"
@@ -192,25 +185,17 @@ img {
         "noticies"
         "lateral"
         "peu";
-    gap: 24px;
 }
 
-/* QUADRÍCULA DE NOTICIES */
-.noticies {
-    display: grid;
-    gap: 24px;
-}
 
-/* TABLET: 768px - DUES COLUMNES */
 @media (min-width: 768px) {
-
     .pagina {
         grid-template-columns: 2fr 1fr;
         grid-template-areas:
             "cap cap"
             "menu menu"
             "principal lateral"
-            "noticies noticies"
+            "noticies lateral"
             "peu peu";
     }
 
@@ -219,13 +204,12 @@ img {
     }
 
     .destacada {
-        grid-column: span 2;
+        grid-column: 1 / -1;
     }
 }
 
-/* ORDINADOR: 992px - TRES COLUMNES */
-@media (min-width: 992px) {
 
+@media (min-width: 1024px) {
     .pagina {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
@@ -234,9 +218,5 @@ img {
             "principal principal lateral"
             "noticies noticies lateral"
             "peu peu peu";
-    }
-
-    .noticies {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
